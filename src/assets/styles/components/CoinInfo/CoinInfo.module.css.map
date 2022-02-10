@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK",
+"sources": ["CoinInfo.module.scss"],
+"names": [],
+"file": "CoinInfo.module.css"
+}

@@ -1,0 +1,31 @@
+.finFunctionBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px; }
+  @media screen and (max-width: 1200px) {
+    .finFunctionBlock {
+      flex-wrap: wrap; } }
+  .finFunctionBlock .leftSide {
+    width: 100%;
+    max-width: 680px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF; }
+    .finFunctionBlock .leftSide span {
+      color: #31DEE9; }
+    @media screen and (max-width: 1200px) {
+      .finFunctionBlock .leftSide {
+        margin-bottom: 2rem; } }
+  .finFunctionBlock .rightSide {
+    width: 100%;
+    max-width: 490px; }
+    .finFunctionBlock .rightSide p {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 20px;
+      line-height: 36px;
+      color: #FFFFFF; }
+
+/*# sourceMappingURL=FinFunctionBlock.module.css.map */

@@ -1,0 +1,86 @@
+.coinInfoItem {
+  width: 100%;
+  min-height: 466px;
+  padding: 60px 42px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 16px; }
+  @media screen and (max-width: 1200px) {
+    .coinInfoItem {
+      padding: 1rem; } }
+  .coinInfoItem .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; }
+    @media screen and (max-width: 768px) {
+      .coinInfoItem .header {
+        flex-wrap: wrap; } }
+    .coinInfoItem .header .title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: #FFFFFF;
+      margin-bottom: 0; }
+    .coinInfoItem .header .logoBlock {
+      display: flex;
+      width: 100%;
+      max-width: 376px;
+      justify-content: space-between;
+      align-items: center; }
+      @media screen and (max-width: 480px) {
+        .coinInfoItem .header .logoBlock {
+          flex-wrap: wrap; } }
+  .coinInfoItem hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin-bottom: 42px;
+    margin-top: 42px; }
+  .coinInfoItem .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 1200px) {
+      .coinInfoItem .body {
+        flex-wrap: wrap; } }
+  .coinInfoItem .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 1200px) {
+      .coinInfoItem .footer {
+        flex-wrap: wrap; } }
+  .coinInfoItem .rowItem {
+    display: flex;
+    flex-direction: column; }
+    .coinInfoItem .rowItem .label {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 16px;
+      line-height: 24px;
+      color: #818C99;
+      margin-bottom: 4px; }
+    .coinInfoItem .rowItem .content {
+      display: flex;
+      align-items: center; }
+      .coinInfoItem .rowItem .content p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-bottom: 0; }
+        @media screen and (max-width: 768px) {
+          .coinInfoItem .rowItem .content p {
+            font-size: 16px; } }
+        @media screen and (max-width: 480px) {
+          .coinInfoItem .rowItem .content p {
+            font-size: 14px; } }
+  .coinInfoItem .divider {
+    width: 1px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.08); }
+
+/*# sourceMappingURL=CoinInfoItem.module.css.map */

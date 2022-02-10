@@ -1,0 +1,36 @@
+.finFunctionBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  @media screen and (max-width: 1200px){
+    flex-wrap: wrap;
+  }
+
+  .leftSide {
+    width: 100%;
+    max-width: 680px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+    span{
+      color: #31DEE9;
+    }
+    @media screen and (max-width: 1200px){
+      margin-bottom: 2rem;
+    }
+  }
+
+  .rightSide{
+    width: 100%;
+    max-width: 490px;
+    p{
+      font-style: normal;
+      font-weight: 450;
+      font-size: 20px;
+      line-height: 36px;
+      color: #FFFFFF;
+    }
+  }
+}

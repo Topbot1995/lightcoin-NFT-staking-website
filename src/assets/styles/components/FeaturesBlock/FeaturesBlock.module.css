@@ -1,0 +1,21 @@
+.featuresBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  @media screen and (max-width: 1200px) {
+    .featuresBlock {
+      flex-wrap: wrap; } }
+  .featuresBlock .leftSide {
+    max-width: 527px;
+    margin-bottom: 2rem; }
+  .featuresBlock .rightSide {
+    width: 100%;
+    max-width: 700px; }
+    @media screen and (max-width: 1400px) {
+      .featuresBlock .rightSide {
+        max-width: 450px; } }
+    @media screen and (max-width: 1200px) {
+      .featuresBlock .rightSide {
+        max-width: 700px; } }
+
+/*# sourceMappingURL=FeaturesBlock.module.css.map */

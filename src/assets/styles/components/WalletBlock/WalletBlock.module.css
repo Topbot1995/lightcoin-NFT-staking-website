@@ -1,0 +1,56 @@
+.walletBlock {
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  min-height: 1040px;
+  padding-top: 200px; }
+  @media screen and (max-width: 998px) {
+    .walletBlock {
+      padding-top: 480px; } }
+  .walletBlock .lineBg {
+    background: linear-gradient(300deg, #4C18A5, #050373, #31DEE9 140%);
+    padding-top: 104px;
+    padding-bottom: 120px; }
+  .walletBlock .macbook {
+    position: absolute;
+    bottom: -95px;
+    width: 100%;
+    max-width: 1250px; }
+    @media screen and (max-width: 1740px) {
+      .walletBlock .macbook {
+        max-width: 70vw; } }
+    @media screen and (max-width: 1400px) {
+      .walletBlock .macbook {
+        max-width: 60vw;
+        bottom: 155px; } }
+    @media screen and (max-width: 1200px) {
+      .walletBlock .macbook {
+        max-width: 50vw;
+        bottom: 270px; } }
+    @media screen and (max-width: 998px) {
+      .walletBlock .macbook {
+        max-width: 700px;
+        bottom: 400px; } }
+  .walletBlock .wrapper {
+    display: flex;
+    justify-content: flex-end; }
+    .walletBlock .wrapper .rightSide {
+      width: 100%;
+      max-width: 490px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .walletBlock .wrapper .rightSide .content .icon {
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s; }
+        .walletBlock .wrapper .rightSide .content .icon:hover {
+          -webkit-transform: scale(1.1, 1.1);
+          -moz-transform: scale(1.1, 1.1);
+          -ms-transform: scale(1.1, 1.1);
+          -o-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1); }
+
+/*# sourceMappingURL=WalletBlock.module.css.map */

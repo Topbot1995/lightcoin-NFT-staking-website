@@ -1,0 +1,47 @@
+.topHeader{
+  height: 48px;
+  background: #020405;
+  border-radius: 4px;
+  @media screen and (max-width: 768px){
+    height: auto;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    @media screen and (max-width: 768px){
+      flex-wrap: wrap;
+    }
+
+    .headerCard{
+      display: flex;
+      align-items: center;
+      .title{
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 20px;
+        color: #818C99;
+        margin-right: 8px;
+      }
+
+      .content{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    .divider{
+      width: 1px;
+      height: 24px;
+      left: 580px;
+      top: 12px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+  }
+}

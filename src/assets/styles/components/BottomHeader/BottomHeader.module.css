@@ -1,0 +1,75 @@
+.bottomHeader {
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (max-width: 1400px) {
+    .bottomHeader {
+      height: auto;
+      flex-wrap: wrap; } }
+  .bottomHeader .leftMenu {
+    width: 100%;
+    max-width: 471px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 1400px) {
+      .bottomHeader .leftMenu {
+        margin-top: 1rem;
+        margin-bottom: 1rem; } }
+    @media screen and (max-width: 576px) {
+      .bottomHeader .leftMenu {
+        flex-wrap: wrap; } }
+    .bottomHeader .leftMenu .leftMenuItem {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      -webkit-transition: all .2s;
+      -moz-transition: all .2s;
+      -ms-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s;
+      text-decoration: none; }
+      .bottomHeader .leftMenu .leftMenuItem:hover {
+        cursor: pointer;
+        color: #31DEE9;
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1); }
+  .bottomHeader .rightMenu {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media screen and (max-width: 576px) {
+      .bottomHeader .rightMenu {
+        flex-wrap: wrap; } }
+    .bottomHeader .rightMenu .rightMenuItem {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      text-decoration: none;
+      -webkit-transition: all .2s;
+      -moz-transition: all .2s;
+      -ms-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+      .bottomHeader .rightMenu .rightMenuItem:hover {
+        cursor: pointer;
+        color: #31DEE9;
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1); }
+
+/*# sourceMappingURL=BottomHeader.module.css.map */

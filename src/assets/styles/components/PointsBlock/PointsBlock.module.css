@@ -1,0 +1,20 @@
+.pointsBlock {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 1400px) {
+    .pointsBlock {
+      flex-wrap: wrap; } }
+  .pointsBlock .leftSide {
+    max-width: 705px;
+    margin-bottom: 2rem; }
+  .pointsBlock .rightSide {
+    width: 100%;
+    max-width: 490px; }
+    @media screen and (max-width: 1400px) {
+      .pointsBlock .rightSide {
+        max-width: 450px; } }
+    @media screen and (max-width: 1200px) {
+      .pointsBlock .rightSide {
+        max-width: 700px; } }
+
+/*# sourceMappingURL=PointsBlock.module.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gCAAgC;EAC9B,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,qBAAqB,EAAE,CAAC;EACxB,kBAAkB,EAAE,CAAC;EACrB,aAAa,EAAE,CAAC;EAChB,UAAU,EAAE,IAAI;;AAIhB,iEAAO;EACL,UAAU,EAAE,OAAO",
+"sources": ["MultiCarousel.scss"],
+"names": [],
+"file": "MultiCarousel.css"
+}

@@ -1,0 +1,123 @@
+.footer{
+  padding-top: 54px;
+  padding-bottom: 36px;
+  .topFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menuLeft {
+      width: 100%;
+      max-width: 471px;
+      display: flex;
+      justify-content: space-between;
+
+      a{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+        &:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.2, 1.2);
+          -moz-transform: scale(1.2, 1.2);
+          -ms-transform: scale(1.2, 1.2);
+          -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+          color: #4C18A5;
+        }
+      }
+    }
+
+    .menuRight {
+      width: 100%;
+      max-width: 635px;
+      display: flex;
+      justify-content: space-between;
+
+      a{
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+        &:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.2, 1.2);
+          -moz-transform: scale(1.2, 1.2);
+          -ms-transform: scale(1.2, 1.2);
+          -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+          color: #4C18A5;
+        }
+      }
+    }
+  }
+
+  hr{
+    margin-top: 50px;
+    margin-bottom: 32px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+      width: 100%;
+      max-width: 168px;
+    }
+
+    .social{
+      width: 100%;
+      max-width: 260px;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        img {
+          width: 100%;
+          max-width: 40px;
+          -webkit-transition: all .2s;
+          -moz-transition: all .2s;
+          -ms-transition: all .2s;
+          -o-transition: all .2s;
+          transition: all .2s;
+
+          &:hover {
+            -webkit-transform: scale(1.1, 1.1);
+            -moz-transform: scale(1.1, 1.1);
+            -ms-transform: scale(1.1, 1.1);
+            -o-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+          }
+        }
+      }
+    }
+
+    .copyright{
+      font-style: normal;
+      font-weight: 450;
+      font-size: 14px;
+      line-height: 20px;
+      color: #818C99;
+    }
+  }
+}

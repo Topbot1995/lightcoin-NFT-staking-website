@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACZ,UAAU,EAAE,8DAA8D;EAC1E,WAAW,EAAE,KAAK;EAClB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;EACpB,QAAQ,EAAE,QAAQ;EAElB,sBAAS;IACP,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,MAAM",
+"sources": ["PartnerShipBlock.module.scss"],
+"names": [],
+"file": "PartnerShipBlock.module.css"
+}
